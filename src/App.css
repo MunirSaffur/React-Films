@@ -1,0 +1,65 @@
+body{
+  background-color: #000 !important;
+  height: 100vh !important;
+}
+.cardBody{
+  border: 1px solid #a0aec0;
+  height: 350px;
+  position: relative;
+  border-radius: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cardContent{
+  color: #fff;
+  position: absolute;
+  bottom: 0px;
+  padding: 10px;
+  padding-top: 60%;
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+  background: rgb(2,0,36);
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(0,0,0,0.2231267507002801) 80%, rgba(0,212,255,0) 100%);
+}
+.cardImg{
+  width: 100%;
+    height: 25vw;
+  object-fit: contain;
+}
+
+.recentCardBody{
+  height: 130px;
+  border-radius: 10px;
+  border: 1px solid #aaa;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.recentCardContent{
+  width: 100%;
+  height: 100%;
+  padding: 10px 20px;
+  border-radius:  10px;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,0.2231267507002801) 80%, rgba(0,212,255,0) 100%);
+}
+.recentlyHeading{
+  position: relative;
+}
+.clearRecently{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.cpr{
+  text-align: center;
+  padding: 10px;
+  color: #aaa;
+  background-color: #171923;
+}
+.page-link {
+  color: #aaa !important;
+  background-color: #2d3748 !important;
+  border: 1px solid #4a5568 !important;
+}
