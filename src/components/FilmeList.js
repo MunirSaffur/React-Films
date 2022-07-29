@@ -28,7 +28,7 @@ const FilmList = () => {
       setfilms(res.data.Search);
       setLoading(false);
     });
-  });
+  },[params]);
 
   // handle search
   function handleSearch(e) {
