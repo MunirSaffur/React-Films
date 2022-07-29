@@ -18,7 +18,7 @@ export default function FilmePage() {
     }
   })
   .then((res) => setPageData(res.data));
- },{})
+ }, [pageData])
 
   return (
     <div className="row my-4 text-white">
