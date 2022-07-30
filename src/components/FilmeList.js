@@ -51,6 +51,7 @@ const FilmList = () => {
       const newParams = { ...params };
       newParams.params.page += action;
       setParams(newParams);
+      setLoading(true);
     }
   }
 
@@ -59,6 +60,7 @@ const FilmList = () => {
     const newParams = { ...params };
     newParams.params.type = type;
     setParams(newParams);
+    setLoading(true);
   }
 
   // handle Release Date
@@ -66,6 +68,7 @@ const FilmList = () => {
     const newParams = { ...params };
     newParams.params.y = date.target.value;
     setParams(newParams);
+    setLoading(true);
   }
   return (
     <div>
